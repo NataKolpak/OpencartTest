@@ -1,0 +1,41 @@
+19:35:22.051 [TestNG-tests-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+19:35:22.061 [TestNG-tests-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+19:35:22.122 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+19:35:22.122 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+19:35:22.122 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+19:35:22.122 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+19:35:22.122 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+19:35:22.123 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+19:35:22.123 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+19:35:22.123 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+19:35:22.123 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+19:35:22.123 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+19:35:22.123 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+19:35:22.123 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+19:35:22.140 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+19:35:22.140 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+19:35:22.140 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+19:35:22.547 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 31068 (auto-detected)
+19:35:22.550 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+19:35:22.551 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+19:35:22.811 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+19:35:22.812 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+19:35:22.831 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 74:c6:3b:ff:fe:37:de:57 (auto-detected)
+19:35:22.929 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+19:35:22.929 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+19:35:22.930 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@232977e
+19:35:22.961 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+19:35:22.961 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+19:35:22.961 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+19:35:22.961 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+19:35:25.584 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+19:35:25.947 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x07cbb320174a9bfd
+19:35:27.452 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - **** STARTING verifyAccountRegistration**** 
+19:35:27.452 [TestNG-tests-1] DEBUG testCases.TC_001_AccountRegistrationTest - application logs started...
+19:35:28.444 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on "myAccount link"
+19:35:29.294 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on "Registration" link
+19:35:32.314 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Entering customer details.
+19:35:36.640 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue.
+19:35:36.752 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected message.
+19:35:36.752 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - test passed.
+19:35:36.759 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - **** ENDING TC_001_AccountRegistrationTest ****

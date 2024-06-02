@@ -1,0 +1,46 @@
+00:56:16.807 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+00:56:16.821 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+00:56:16.821 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+00:56:16.821 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+00:56:16.821 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+00:56:16.821 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+00:56:16.837 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+00:56:17.292 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 15080 (auto-detected)
+00:56:17.292 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+00:56:17.292 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+00:56:17.526 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+00:56:17.526 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+00:56:17.543 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 74:c6:3b:ff:fe:37:de:57 (auto-detected)
+00:56:17.626 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+00:56:17.629 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+00:56:17.629 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7b998ba8
+00:56:17.643 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+00:56:17.643 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+00:56:17.643 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+00:56:17.643 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+00:56:18.884 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+00:56:19.130 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x4b67be71f60b3dbb
+00:56:21.095 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** STARTING verifyAccountRegistration**** 
+00:56:21.095 [main] DEBUG testCases.TC_001_AccountRegistrationTest - application logs started...
+00:56:22.025 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on "myAccount link"
+00:56:23.616 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on "Registration" link
+00:56:26.619 [main] INFO  testCases.TC_001_AccountRegistrationTest - Entering customer details.
+00:56:30.155 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue.
+00:56:30.250 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating expected message.
+00:56:30.250 [main] INFO  testCases.TC_001_AccountRegistrationTest - test passed.
+00:56:30.255 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** ENDING TC_001_AccountRegistrationTest ****
+00:56:30.256 [main] DEBUG testCases.TC_001_AccountRegistrationTest - application logs ended...
+00:56:35.887 [main] INFO  testCases.TC_002_LoginTest - **** STARTING verifyLogin ****
+00:56:35.887 [main] DEBUG testCases.TC_002_LoginTest -  application logs started 
+00:56:35.887 [main] INFO  testCases.TC_002_LoginTest - clicking Login.
+00:56:38.120 [main] INFO  testCases.TC_002_LoginTest - entering valid credentials.
+00:56:38.460 [main] INFO  testCases.TC_002_LoginTest - submitting credentials.
+00:56:39.052 [main] INFO  testCases.TC_002_LoginTest - verifying successful login.
+00:56:39.149 [main] INFO  testCases.TC_002_LoginTest - login test passed.
+00:56:39.149 [main] INFO  testCases.TC_002_LoginTest - **** TC_002_LoginTest ****
+00:56:39.149 [main] DEBUG testCases.TC_002_LoginTest - end of application logs.
+01:15:29.664 [main] INFO  testCases.TC_001_AccountRegistrationTest - **** STARTING verifyAccountRegistration**** 
+01:15:29.672 [main] DEBUG testCases.TC_001_AccountRegistrationTest - application logs started...
+01:15:30.824 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on "myAccount link"
+01:15:31.512 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on "Registration" link
+01:15:34.522 [main] INFO  testCases.TC_001_AccountRegistrationTest - Entering customer details.

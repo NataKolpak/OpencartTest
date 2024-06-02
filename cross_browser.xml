@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="5" parallel="tests">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+    <test verbose="2" name="chromeTest">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC_001_AccountRegistrationTest"/>
+            <class name="testCases.TC_002_LoginTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+    <test name="edgeTest">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="testCases.TC_001_AccountRegistrationTest"/>
+            <class name="testCases.TC_002_LoginTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="grouping(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyAccountRegistration"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_002_LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_002_LoginTest -->
+    </classes>
+  </test> <!-- grouping(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
