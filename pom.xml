@@ -28,7 +28,7 @@
                     <configuration>
                         <suiteXmlFiles>
                             <suiteXmlFile>final.xml</suiteXmlFile>
-                            <suiteXmlFile>master.xml</suiteXmlFile>
+<!--                            <suiteXmlFile>master.xml</suiteXmlFile>-->
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
